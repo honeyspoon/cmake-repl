@@ -29,7 +29,7 @@ process.on("exit", () => {
 
 const stdin = process.openStdin();
 const prompt = "cmake $ ";
-const cmake_bin_path = "/opt/local/bin/cmake";
+const cmake_bin_path = "cmake"; // replace with your cmake path
 
 const rli = readline.createInterface(process.stdin, process.stdout);
 
